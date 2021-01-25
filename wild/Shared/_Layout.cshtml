@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<style>
+    body {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+</style>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <a href="" class="navbar-brand">개발맨</a>
+        <ul class="nav navbar-nav pull-right">
+            <li><a href="">로그인</a></li>
+            <li><a href="">회원가입</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom">
+    </div>
+</body>
+</html>
